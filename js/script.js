@@ -32,3 +32,27 @@ for (let i = 1; i < bicicletta.length; i++) {
 console.log(
   `La bici leggera è ${leggera.name} con un peso di ${leggera.peso} kg`
 );
+
+//SNACK 2
+const teams = [
+  {
+    name: `Atalanta`,
+    puntiFatti: `0`,
+    falliSubiti: `0`,
+  },
+  {
+    name: `Monza`,
+    puntiFatti: `0`,
+    falliSubiti: `0`,
+  },
+  {
+    name: `Lecco`,
+    puntiFatti: `0`,
+    falliSubiti: `0`,
+  },
+  {
+    name: `Brescia`,
+    puntiFatti: `0`,
+    falliSubiti: `0`,
+  },
+];
