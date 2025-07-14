@@ -19,15 +19,16 @@ const bicicletta = [
   },
 ];
 
-//creo array contenente
+//creo array contenente la prima bici
 let leggera = bicicletta[0];
 
 for (let i = 1; i < bicicletta.length; i++) {
+  //condizione if per vedere la più leggera
   if (bicicletta[i].peso < leggera.peso) {
     leggera = bicicletta[i];
   }
 }
-
+//stampo il ciclo
 console.log(
   `La bici leggera è ${leggera.name} con un peso di ${leggera.peso} kg`
 );
