@@ -1,4 +1,5 @@
 //SNACK 1
+//definisco l'array di oggetti
 const bicicletta = [
   {
     name: "Coppi",
@@ -18,7 +19,8 @@ const bicicletta = [
   },
 ];
 
-const leggera = bicicletta[0];
+//creo array contenente
+let leggera = bicicletta[0];
 
 for (let i = 1; i < bicicletta.length; i++) {
   if (bicicletta[i].peso < leggera.peso) {
